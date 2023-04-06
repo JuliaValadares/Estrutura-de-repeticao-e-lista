@@ -11,3 +11,9 @@ for i in range(0,len(exerc03)):
     media = media + exerc03[i]
 media = media / len(exerc03)
 print("media:",media)
+
+exerc04 = ["a","b","c","d","f","g","h","i","j"]
+for i in exerc04:
+    if i not in "a,e,i,o,u":
+        print(i)
+    
