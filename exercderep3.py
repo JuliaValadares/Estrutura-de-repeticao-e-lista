@@ -8,7 +8,7 @@ while ( idade > 150 or idade < 0 ):
 
 salario=float(input("digite um salário invalido.Digite novamente "))
 while ( salario < 0 ):
-	salario=float(input("Salário--> "))
+	salario=float(input("Salário "))
 	
 sexo=str(input("digite a inicial do seu sexo"))
 while   sexo !="F" and sexo !="M" :
